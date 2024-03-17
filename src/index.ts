@@ -30,7 +30,7 @@ app.get("/health", async (req: Request, res: Response) => {
     res.send({ message: "health OK!" });
   });
 
-app.listen(7000, () => {
+app.listen(4000, () => {
     console.log("server started on localhost:7000");
 });
 
